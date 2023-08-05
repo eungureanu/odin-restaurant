@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "update-github-live-preview": "git subtree push --prefix dist origin gh-pages",
     "build": "webpack",
     "watch": "webpack --watch"
   },
