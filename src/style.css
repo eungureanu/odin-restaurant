@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Alata-Regular.ttf') format('truetype');
+}
+  
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./food.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.buttons {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'MyFont';
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
